@@ -1,0 +1,17 @@
+type mongo
+
+show dbs
+
+use pavan(create database and use it)
+
+show collections
+
+db.createCollection("mongo")      -----create collection it is like a table in sql
+
+db.mongo.insertMany([{username: "bumchik" ,password: "cheeeeeee"},
+                    {username : "pakkinti kurradu",password : "chandusai"}
+                    {username:"dethadi",password: "harika"}'
+                    {username:"chaibiscuit",password:"lollllll"}'
+                    {username: "boysformula",password:"girlsformula"}
+                    ])
+                   
